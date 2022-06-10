@@ -1,0 +1,116 @@
+ul {
+    list-style: none;
+  }
+  h2,
+  h3,
+  a {
+      color: white;
+  }
+  a {
+      text-decoration: none;
+  }
+  .logo {
+      margin: 0;
+      font-size: 12px;
+      font-weight: 900;
+  }
+  .logo a,
+  .main-nav a {
+      padding: 10px 15px;
+      text-align: center;
+      display: block;
+  }
+  
+  .main-nav a {
+      color: white;
+      font-size: 12px;
+  }
+  .header {
+      background-color: red;
+      font-family: 'Inter', sans-serif;
+      height: 40px;
+  }
+  @media (min-width: 769px) {
+      .header,
+      .main-nav {
+          display: flex;
+      }
+      .header {
+          flex-direction: column;
+          align-items: center;
+          .header{
+          width: 80%;
+          margin: 0 auto;
+          max-width: 1150px;
+      }
+  }
+  }
+  @media (min-width: 1025px) {
+      .header {
+          flex-direction: row;
+          justify-content: space-between;
+      }
+  
+  }
+
+  .hero4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+  .footer {
+    height: 50px;
+    position: relative;
+    background-color: red;
+    top:30px;
+  }
+  .logos {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .hell {
+    display: flex;
+    justify-content: center;
+}
+.column2 {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    padding: 0 10px;
+  }
+  .cards {
+    position: relative;
+    top:10px;
+    height: 640px;
+    width: 500px;
+    padding: 16px;
+    text-align: center;
+    background-color: red;
+    float: left;
+  }
+  .last {
+    width: 100%;
+  }
+  .lastOne {
+      width: 10px;
+  }
+  h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 25px;
+  }
+  p {
+    position: relative;
+    top:5px;
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .arrow {
+      float: right;
+  }
